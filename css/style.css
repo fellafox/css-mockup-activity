@@ -53,3 +53,9 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+.headercontainer{
+	width: 320px;
+	padding: 10px;
+	border: 5px #ff8b00;
+	margin: 0;
+}

@@ -13,7 +13,7 @@
 		<div class="sfooter-content">
 
 			<header>
-				<div class="container">
+				<div class="headercontainer">
 					<h1>Dylan McDonald</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
