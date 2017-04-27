@@ -53,9 +53,26 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
-.headercontainer{
-	width: 320px;
-	padding: 10px;
-	border: 5px #ff8b00;
-	margin: 0;
+.headercontainer {
+	background-color: darkorange;
+	padding: 5px;
+	color: white;
+	font-size: x-large;
+	font-family: sans-serif;
 }
+header .container em {
+	display: inline-block;
+}
+header .container h1{
+	display: inline-block;
+}
+.instructions {
+	border: 2px solid darkorange;
+	color: darkorange;
+	font-family: sans-serif;
+	background-image: url("images/captain-janeway.png");
+}
+IMG.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto }
