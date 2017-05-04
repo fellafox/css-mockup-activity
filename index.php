@@ -89,7 +89,7 @@
 
 		<footer>
 			<div class="container">
-				<h4>&copy; 2017 A USS Berners-Lee Production</h4>
+				<h4>&copy; 2017 A USS Berners-Lee Production!</h4>
 			</div>
 		</footer>
 	</body>
