@@ -53,26 +53,76 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
-.headercontainer {
+body {
+	font-family: sans-serif;
+}
+
+header {
 	background-color: darkorange;
-	padding: 5px;
-	color: white;
-	font-size: x-large;
-	font-family: sans-serif;
+	color: #ffffff;
+	padding: 2rem 0;
 }
-header .container em {
+
+header h1{
+	margin: 0 3rem 0 0;
+	font-size: 4.5rem;
 	display: inline-block;
 }
-header .container h1{
-	display: inline-block;
-}
+
 .instructions {
-	border: 2px solid darkorange;
+	border: 3px solid darkorange;
+	padding: 3rem;
 	color: darkorange;
-	font-family: sans-serif;
-	background-image: url("images/captain-janeway.png");
+	font-weight: bold;
+	line-height: 1.5rem;
 }
-IMG.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto }
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+section {
+	padding: 5rem 0;
+}
+
+.instructions img {
+	width: 250px;
+	border: 3px solid lightgray;
+}
+section:nth-child(2) {
+	background-color: lightgray;
+	color: #555555;
+	line-height: 1.5rem;
+}
+img[alt="captain picard"] {
+	width: 300px;
+	border: 3px solid white;
+	line-height: 1.5rem;
+}
+
+section:nth-child (2) span {
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	font-family: serif;
+}
+section:last-child h2 {
+	color: darkorange;
+	text-align: right;
+}
+table {
+	width: 100%;
+	text-align: left;
+}
+th, td {
+	background-color: darkorange;
+	color: white;
+	padding: 1rem;
+}
+footer {
+	background-color: black;
+	color: lightgray;
+	padding: 2rem 0;
+}
+
